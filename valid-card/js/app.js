@@ -1,4 +1,4 @@
-var cardNumber = prompt('Wich is your number card?');
+var cardNumber = prompt('What is your number card?');
 
 function isValidCard (number){
   

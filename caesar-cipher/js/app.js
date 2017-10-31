@@ -2,7 +2,7 @@ var fisrtQuestion = (prompt('Do you want cipher o decipher?')).toUpperCase();
 
 switch(fisrtQuestion){
   case "CIPHER":
-    var questionSentence = (prompt('Wich is your sentence?')).toUpperCase();
+    var questionSentence = (prompt('What is your sentence?')).toUpperCase();
 
     function cipher (sentenceToCipher){
       if(questionSentence === ''){
@@ -28,7 +28,7 @@ switch(fisrtQuestion){
   
   case "DECIPHER":
     
-    var questionSentence2 = (prompt('Wich is your sentence?')).toUpperCase();
+    var questionSentence2 = (prompt('What is your sentence?')).toUpperCase();
 
     function decipher (sentenceToDecipher){
           if(questionSentence2 === ''){
